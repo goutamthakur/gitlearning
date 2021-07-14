@@ -1,4 +1,12 @@
-#include <stdio.h>
+// Bitwise OR operator
+// 12 = 00001100 (In Binary)
+// 25 = 00011001 (In Binary)
+
+// Bitwise OR Operation of 12 and 25
+//   00001100
+// | 00011001
+//   ________
+//   00011101  = 29 (In decimal)#include <stdio.h>
 
 int main()
 {
@@ -8,11 +16,3 @@ int main()
 
     return 0;
 }
-// 12 = 00001100 (In Binary)
-// 25 = 00011001 (In Binary)
-
-// Bitwise OR Operation of 12 and 25
-//   00001100
-// | 00011001
-//   ________
-//   00011101  = 29 (In decimal)

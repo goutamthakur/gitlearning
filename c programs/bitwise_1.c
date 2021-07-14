@@ -1,3 +1,4 @@
+// Differnece between bitwise operator and logical operator 
 #include <stdio.h>
 
 int main()

@@ -1,19 +1,18 @@
-// Bitwise AND operator
 // 12 = 00001100 (In Binary)
 // 25 = 00011001 (In Binary)
 
-// Bit Operation of 12 and 25
+// Bitwise XOR Operation of 12 and 25
 //   00001100
-// & 00011001
+// ^ 00011001
 //   ________
-//   00001000  = 8 (In decimal)
+//   00010101  = 21 (In decimal)
+// Example #3: Bitwise XOR
+
 #include <stdio.h>
 
 int main()
 {
     int a = 12, b = 25;
-
-    printf("Output = %d", a & b);
-    
+    printf("Output = %d", a^b);
     return 0;
 }
