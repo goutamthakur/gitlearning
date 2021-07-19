@@ -1,2 +1,2 @@
-hell git learning2 is the project for me to work on my git and GitHub knowledge.
-Hello.
+Hello!!
+This repository is for me to learn git commands and github.
