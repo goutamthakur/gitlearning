@@ -1,7 +1,8 @@
-//gets function in c 
+//gets function in c
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char str1[100];
     printf("Enter a sentence: ");
     gets(str1);

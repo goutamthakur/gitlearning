@@ -1,1 +1,0 @@
-//strlwr() function in c 

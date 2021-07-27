@@ -1,3 +1,4 @@
+//Using different ways to write string to the user 
 #include <stdio.h>
 
 int main(){
