@@ -1,6 +1,6 @@
 Pointers:-
 
-1. When variables are declared, memory location is allocated to each variable. The unarry operator(&) 
+1. When variables are declared, memory location is allocated to each variable. The unary operator(&) 
    gives the address of a variable called as the reference operator.
 2. If 'var' is a variable in the program then &var will give its address in the memory.
 3. A pointer is variable which holds the address of another variable. The indirection or dereference 
