@@ -4,6 +4,7 @@ void fun(int *ptr){
 }
 int main(){
     int y =20;
+    printf("The original value of y is %d\n", y);
     fun(&y);
     printf("%d", y);
 
