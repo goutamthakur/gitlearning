@@ -1,5 +1,3 @@
-# Hello!!!
-
-**This repository is for me to learn git commands and github.**
-
-**Ignore this repository...**
+Hello!!!
+This repository is for me to learn git commands and github.
+Please ignore this repository...
