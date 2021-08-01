@@ -13,7 +13,7 @@ int main()
     c1 = 1 + r / 100;
     a = p * pow(c1, n);
     ci = a - p;
-    printf("Final amount: %.2f\n", a);
+    printf("\nFinal amount: %.2f\n", a);
     printf("Compounded interest: %.2f\n", ci);
 
     return 0;
