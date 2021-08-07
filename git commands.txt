@@ -1,1 +1,11 @@
+pwd =>Shows Present Working Directory
+ls =>List the content of the folder in which git is intialized
+cd =>Change directory
+touch =>Linux command to create a new log file in the current folder
+
 git init =>Initialize a git repository
+git status =>To check the status
+git add . =>Add all untracked file into staging area
+git log =>Shows all the past commit
+git diff =>Compare working directory to staging area
+git diff --staged =>Compare current stagged with last commit
