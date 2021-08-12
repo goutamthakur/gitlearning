@@ -1,6 +1,6 @@
 pwd =>Shows Present Working Directory
 
-ls =>List the content of the folder in which git is intialized
+ls =>List the content of the folder in which git is initialized
 
 cd =>Change directory
 
@@ -8,15 +8,15 @@ touch =>Linux command to create a new log file in the current folder
 
 git init =>Initialize a git repository
 
-git clone =>To clone a repository1
+git clone =>To clone a repository
 
 git status =>To check the status
 
 git add . =>Add all untracked file into staging area
 
-git commit -m"message" =>Commits staged files
+git commit -m"message" =>Commits stagged files
 
-git commit -a -m"message" =>All tracked file get staged and get commited
+git commit -a -m"message" =>All untracked files, get stagged and get commited
 
 git log =>Shows all the past commit
 
@@ -30,7 +30,7 @@ git config -b (new branch name) =>To create a new branch
 
 git branch =>Show all the brach
 
-git checkout (branch name)
+git checkout (branch name) =>To change the branch 
 
 git branch --merged =>Will show merged branch
 
@@ -39,6 +39,7 @@ git branch --no-merged =>Will show branches which are not merged
 git branch -d (branch name) =>Delete the branch
 			    =>Will show error if branch is not merged
 
-git branch -D (brach name) =>NO error and brach is deleted
+git branch -D (brach name) =>NO error is shown even if branch is not merged
+			   =>And branch is deleted
 
-git config --global alias.(short form of git command) (long form of git command)d 
+git config --global alias.(short form of git command) (long form of git command)
