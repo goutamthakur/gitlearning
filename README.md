@@ -1,2 +1,2 @@
-This is repository for me to **learn** git commands and github. 
+This repository is for me to **learn** git commands and github. 
 It also contains some C programs.
