@@ -3,14 +3,14 @@
 
 int main()
 {
-    char x = 1, y = 1;
+    int x = 1, y = 1;
     if (x & y)
     {
-        printf("Result of x&y is 1\n");
+        printf("Result of x&y is %d\n", x&y);
     }
     if (x && y)
     {
-        printf("Result of x&&y is 1\n");
+        printf("Result of x&&y is %d\n", x&&y);
     }
     return 0;
 }

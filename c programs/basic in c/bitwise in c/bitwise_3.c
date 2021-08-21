@@ -6,7 +6,9 @@
 //   00001100
 // | 00011001
 //   ________
-//   00011101  = 29 (In decimal)#include <stdio.h>
+//   00011101  = 29 (In decimal)
+
+#include <stdio.h>
 
 int main()
 {

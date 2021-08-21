@@ -1,5 +1,8 @@
 // Bitwise complement
+//~1=0
+//~0=1
 #include <stdio.h>
+
 int main()
 {
     printf("Output = %d\n",~35);
