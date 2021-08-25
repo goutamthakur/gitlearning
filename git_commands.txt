@@ -46,7 +46,8 @@ git branch -d (branch name) =>Delete the branch.
 git branch -D (brach name) =>NO error is shown even if branch is not merged.
 			   =>And branch is deleted.
 
-git rebase -i (git commit code)=>To pick and squash the commits. This command help to convert many commits into a single commit.
+git rebase -i (git commit code)=>To pick and squash the commits. 
+                               =>This command help to convert many commits into a single commit.
 
 git reset (git commit code)=>All the commits above your mentioned git commit code is unstagged.
 
