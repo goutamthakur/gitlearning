@@ -30,7 +30,7 @@ git diff =>Compare working directory to staging area.
 
 git diff --staged =>Compare current stagged with last commit.
 
-git config -b (new branch name) =>To create a new branch.
+git checkout -b (new branch name) =>To create a new branch.
 
 git branch =>Show all the brach.
 
