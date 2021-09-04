@@ -1,5 +1,5 @@
 pwd =>Shows Present Working Directory.
-
+  
 ls =>List the content of the folder in which git is initialized.
 
 cd =>Change directory.
@@ -14,7 +14,7 @@ git init =>Initialize a git repository.
 
 git clone =>To clone a repository.
 
-git status =>To check the status.
+git status =>To check the status of git repository.
 
 git add . =>Add all untracked file into staging area.
 
