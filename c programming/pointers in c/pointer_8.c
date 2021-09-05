@@ -5,7 +5,7 @@ void tentimes(int *a)
     printf("\nValue of a: %d\n", a);
     printf("Address of a: %d\n", &a);
     printf("Value of *a: %d\n", *a);
-    *a = *a * 5;
+    *a = *a * 10;
 }
 int main()
 {

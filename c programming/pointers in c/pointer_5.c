@@ -1,7 +1,7 @@
 //Factorial of a number using call by reference 
 #include<stdio.h>
 int cal_fac(int *n){
-    int f=1;
+    int f=1;//If we don't assign one it will take zero as default.
     for(int i=1; i<=*n; i++){
         f=f*i;
     }

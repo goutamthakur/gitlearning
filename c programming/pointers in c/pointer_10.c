@@ -1,4 +1,6 @@
+//Average of two number
 #include <stdio.h>
+
 float sum_and_avg(float i, float j, float *sum, float *avg)
 {
     *sum = i + j;
