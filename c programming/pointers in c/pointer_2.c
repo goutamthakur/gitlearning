@@ -1,9 +1,10 @@
 //Basic program using pointers
 #include <stdio.h>
 
-int main(){
-    int *p, v=20;
-    p=&v;
+int main()
+{
+    int *p, v = 20;
+    p = &v;
     printf("Value of v is: %d\n", v);
     printf("Address of v is: %d\n", &v);
 

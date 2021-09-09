@@ -1,10 +1,11 @@
 // Pointer to a pointer
 #include <stdio.h>
 
-int main(){
-    int v=20, *p, **s;
-    p=&v;
-    s=&p;
+int main()
+{
+    int v = 20, *p, **s;
+    p = &v;
+    s = &p;
 
     printf("Value of v is: %d\n", v);
     printf("Address of v is: %d\n", &v);
