@@ -5,7 +5,7 @@ void sum()
     // int a = 10;
     // int b = 34;
     static int a = 10;
-    static int b=34; 
+    static int b = 34;
     printf("%d  %d \n", a, b);
     a++;
     b++;

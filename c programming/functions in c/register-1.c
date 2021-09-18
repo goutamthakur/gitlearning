@@ -3,7 +3,7 @@
 int main()
 {
     register int x;
-    printf("%d", x);//lGarbage value 
+    printf("%d", x); //lGarbage value
 
     return 0;
 }

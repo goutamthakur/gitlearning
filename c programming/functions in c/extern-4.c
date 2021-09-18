@@ -9,5 +9,5 @@ int main()
     return 0;
 }
 //  int y =20;  //An external variable can be
-                //declared many times but can be initialized at only once.
-                //Hence error will be give by compiler.
+//declared many times but can be initialized at only once.
+//Hence error will be give by compiler.
