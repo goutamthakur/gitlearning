@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(){
+int main()
+{
     char str[] = "programming";
     char ch = 'g';
     printf("String is : %s ", strchr(str, ch));
