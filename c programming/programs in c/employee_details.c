@@ -1,18 +1,21 @@
 //Program to take details of employee and displays the details
 #include <stdio.h>
-struct Address{
+struct Address
+{
     char HouseNo[100];
     char City[100];
     char PinCode[100];
 };
-struct Employee{
+struct Employee
+{
     char Id;
     char Name[100];
     float Salary;
     char doj[100];
     struct Address Add;
 };
-void main(){
+void main()
+{
     int n;
     printf("Enter the number of the employee: ");
     scanf("%d", &n);
@@ -21,14 +24,14 @@ void main(){
     for (int i = 0; i < n; i++)
     {
         printf("\n");
-        printf("****Enter the details for Employee %d****\n", i+1);
+        printf("****Enter the details for Employee %d****\n", i + 1);
 
         printf("Enter Employee Id : ");
         scanf("%s", &E[i].Id);
 
         printf("Enter Employee Name : ");
         scanf("%s", &E[i].Name);
-        
+
         printf("Enter Employee Salary : ");
         scanf("%f", &E[i].Salary);
 
@@ -43,13 +46,12 @@ void main(){
 
         printf("Enter Employee PinCode : ");
         scanf("%s", &E[i].Add.PinCode);
-
     }
-        printf("\n\n");
+    printf("\n\n");
 
     for (int i = 0; i < n; i++)
     {
-        printf("Details of Employee %d :-", i+1);
+        printf("Details of Employee %d :-", i + 1);
 
         printf("\n\tEmployee Id : %d", E[i].Id);
 

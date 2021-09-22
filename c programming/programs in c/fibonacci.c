@@ -6,7 +6,7 @@ int main()
     printf("Enter the till you want the fibonacci series: ");
     scanf("%d", &n);
     printf("Fibonacci series: %d %d ", n1, n2);
-    for (int i = 2; i < n ; i++)
+    for (int i = 2; i < n; i++)
     {
         fibo = n1 + n2;
         printf("%d ", fibo);
