@@ -13,7 +13,7 @@ int main()
             c++;
         }
     }
-    if (c == 2)/*Since i starts from 1, and prime number is divible by both one and itself.
+    if (c == 2) /*Since i starts from 1, and prime number is divible by both one and itself.
                 So for a prime number c will be increment by 2 */
     {
         printf("%d is a prime number", n);

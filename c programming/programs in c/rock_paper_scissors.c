@@ -64,7 +64,7 @@ int main()
     int result = rockpaperscissor(you, comp);
     printf("You chose %c and computer chose %c \n", you, comp);
 
-   if (result == 1)
+    if (result == 1)
     {
         printf("You win :)\n");
     }
