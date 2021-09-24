@@ -1,22 +1,25 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
-    for (int  i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0;  j<n; j++)
+        for (int j = 0; j < n; j++)
         {
-            if(i+j>=n-1){
+            if (i + j >= n - 1)
+            {
                 printf("*");
             }
-            else{
+            else
+            {
                 printf(" ");
             }
         }
         printf("\n");
     }
-    
+
     return 0;
 }
