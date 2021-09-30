@@ -10,7 +10,7 @@ int main()
     {
         printf("%d x %d = %d\n", n, i, temp);
         i++;
-        temp=n;
+        temp = n;
         temp = temp * i;
     } while (i <= 10);
 

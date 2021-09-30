@@ -27,6 +27,6 @@ void main()
         printf("Do you to print more?(y/n)\n");
         scanf("%d", &temp);
         scanf("%c", &y);
-   
+
     } while (y == 'y');
 }
