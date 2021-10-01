@@ -10,7 +10,6 @@ int main()
         printf("\n");
         printf("Entered number is out of range!!!\n");
         printf("\n");
-
     }
     else
     {
