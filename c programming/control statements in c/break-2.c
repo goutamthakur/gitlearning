@@ -10,7 +10,7 @@ int main()
             printf("%d %d\n", i, j);
             if (i == 2 && j == 2)
             {
-                break;//This will teminate the control out of inner for loop
+                break; //This will teminate the control out of inner for loop
             }
         }
     }

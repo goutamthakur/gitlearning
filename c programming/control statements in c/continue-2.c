@@ -10,9 +10,9 @@ int main()
             printf("%d %d\n", i, j);
             if (i == 2 && j == 2)
             {
-                continue;//This will give the control to the beginning of the loop
+                continue; //This will give the control to the beginning of the loop
 
-                i=10, j=20;/*This line is skipped as the control is at the beginnig of the loop
+                i = 10, j = 20; /*This line is skipped as the control is at the beginnig of the loop
                             Hence continue is also used to skip some code */
             }
         }

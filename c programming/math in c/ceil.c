@@ -11,6 +11,5 @@ int main()
     printf("%f\n", ceil(b));
     printf("%f\n", ceil(c));
 
-  
-    return 0;
+      return 0;
 }

@@ -6,6 +6,5 @@
 void main()
 {
     printf("%f\n", pow(2, 2));
-    printf("%f\n", pow(9,9));
-
+    printf("%f\n", pow(9, 9));
 }
