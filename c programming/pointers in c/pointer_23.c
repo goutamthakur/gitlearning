@@ -6,7 +6,7 @@ int *func();
 int main()
 {
     int *ptr = func();
-    printf("%d", *ptr);//This will print the value of x variable
+    printf("%d", *ptr); //This will print the value of x variable
     return 0;
 }
 

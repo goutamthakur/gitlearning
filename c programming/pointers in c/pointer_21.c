@@ -7,9 +7,9 @@ int main()
 
     {
         char a = 'a';
-        ptr =&a;
+        ptr = &a;
     }
-    
+
     //Here ptr is a dangling pointer because char a
     //has limited to scope
     printf("%s", *ptr);

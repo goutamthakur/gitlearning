@@ -25,5 +25,5 @@ int show()
 
 int showadd(int b)
 {
-    printf("\nAdding 90 to the value returned by show: %d", b + 90); 
+    printf("\nAdding 90 to the value returned by show: %d", b + 90);
 }
