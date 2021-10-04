@@ -5,9 +5,9 @@ int main()
 {
     int result;
     int (*ptr)();
-    ptr = &addition;//ptr is pointer which stores the address of function
-    result = (*ptr)();//ptr is pointing to addition we
-                      //can get return value from function
+    ptr = &addition;   //ptr is pointer which stores the address of function
+    result = (*ptr)(); //ptr is pointing to addition we
+                       //can get return value from function
     printf("The sum is %d", result);
 
     return 0;

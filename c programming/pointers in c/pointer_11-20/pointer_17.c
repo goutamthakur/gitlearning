@@ -15,7 +15,7 @@ int main()
     printf("*temp = %d\n", *temp);
 
     p = p + 10;
-/*  p in pointer which means it stores address 
+    /*  p in pointer which means it stores address 
     and since we are adding 10 into it. 
     The address stored in it get added by 10; 
 */
