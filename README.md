@@ -1,3 +1,3 @@
 # gitlearning
-### This repository is for me to learn git commands and GitHub.<br>It also contains some c programs which I have coded while learning from youtube tutorials and online websites.
+## *This repository is for me to learn git commands and GitHub.<br>It also contains some c programs which I have coded while learning from youtube tutorials and online websites.*
 
