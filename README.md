@@ -1,4 +1,3 @@
 # randomStuff
-## *This repository is for me to learn git commands and GitHub.<br>It also contains some c programs which I have coded while learning from youtube tutorials and online websites.*<br>
-## *And some git and linux commands*
+### This repository contain some random stuff like c programs which I learned on online, git commands and linux commmands
 
