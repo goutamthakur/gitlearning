@@ -1,22 +1,40 @@
 whoami =>Prints the users name
+
 man <command> =>Open the manual page for given commands. 
               =>eg: man whoami will show you info of whoami commands
+
 pwd =>Print work directory. Shows the current/working directory.(folder in which you are)
+
 ls =>Stands for list. List content of a folder/directory.
+
 cd =>Change the shell working directory.
+
 mkdir =>Makes directories. 
+
 touch =>Change file timestamp.If a file does not exists then it makes a new file. 
+
 rmdir =>Removes empty directories. If a directory is not empty it will throw an error.
+  
 rm =>Removes files or directories. But by default it does not remove dirctories. 
-rm -r =>Can be used to delete directories.(r = recursive)
+   =>rm -r can be used to delete directories.(r = recursive)
+
 mv =>mv is use to move a file/directory. It is also use to rename a file/directory.
+
 cp =>It is use to copy a file/directory.
+
 head =>This command is use to output the first part of files.(By default first 10 lines)
+
 tail =>Output the last part of file.(By default last 10 lines)
-date =>Prints or set the system date and time.
+
+date =>Prints or set the system date and time. It shows the systems time. Not the actual time in which you are in.
+
+cal =>Prints the calendar of present month.
+
 > =>Redirecting standard output. This command over write the entire file
   =>(clear all data from the file and output is added)
+
 >> =>Here original data remains as it is and outout is appended.
+
 cat =>Concatenate files and print on the standard output.
     =>cat <file_name> will print the entire content of the fille.
     =>cat <file1> <file2> > <all_file> this put all content of file1 and file2 in all_file.
