@@ -40,4 +40,28 @@ cat =>Concatenate files and print on the standard output.
     =>cat <file1> <file2> > <all_file> this put all content of file1 and file2 in all_file.
     =>cat -n <file_name> will print the content with line number.
 
+less => less show content of the file by providing functions like scrolling the file, g = start of file, 
+	shift+g = end of file, space = next page of file, and b = previous page of file .
+
+echo =>display a line of text. 
+     =>echo "text" this will print text in the termial.
+
+wc =>prints line, word and byte count of file.
+
+<cmd1> | <cmd2> =>Here | means pipeing we are giving the output of one cmd as an input to another cmd.
+
+sort =>This cmd is use to sort the output of file or a cmd.(Actual file is not sorted)
+ 
+uniq => report or omit repeated line. 
+
+expansions =>Shell first expand a small keyword and then pass to command.
+	   =>eg:echo $USER = will print the current user, echo *.txt = print all file with .txt in end
+
+diff =>compare files line by line. prints the difference.
+
+
+	   
+
+
+
 	
